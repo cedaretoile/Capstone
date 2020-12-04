@@ -48,18 +48,14 @@ a:hover {
     text-decoration: none;
 }
 
-footer {
-    padding: 10px 20px;
+img {
+    height: 500px;
 }
 
 .feature-box {
     display: flex;
     text-align: left;
     font-size: 18px;
-}
-
-img {
-    height: 500px;
 }
 
 .feature-box div {
@@ -69,7 +65,19 @@ img {
 }
 
 .about {
-    margin: 0;
+    max-width: 1300px;
+    margin-left: 5%;
+    margin-top: 5%;
     padding: 0;
+}
 
+.contact {
+    font-size: 48px;
+}
+
+.work {
+    max-width: 1500px;
+    margin: 0 0 0 0;
+    margin-bottom: 0%;
+    padding: 0;
 }
